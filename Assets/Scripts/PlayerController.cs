@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    public GameObject projectilePrefab;
     public float horizontalInput;
     public float speed = 10.0f;
     public float xRange = 10;
@@ -30,5 +31,12 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
+
+        // checking if the player pressed to shoot the projectile
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
+
     }
 }

@@ -122,11 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &46451841 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7689552763225815039, guid: d48cf62ddb1754fa8b4ce183b782b344, type: 3}
-  m_PrefabInstance: {fileID: 5142140300255504764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,11 +216,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
---- !u!1 &240300399 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8104735448912219639, guid: c4041960b166a4a5f8f0eda8ab4f6bc8, type: 3}
-  m_PrefabInstance: {fileID: 5631599835434077177}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,9 +412,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 1228719394}
-  - {fileID: 240300399}
-  - {fileID: 46451841}
+  - {fileID: 5573672408480530424, guid: cefc9631ad5e14dc7b1c25b3f9962ba8, type: 3}
+  - {fileID: 8104735448912219639, guid: c4041960b166a4a5f8f0eda8ab4f6bc8, type: 3}
+  - {fileID: 7689552763225815039, guid: d48cf62ddb1754fa8b4ce183b782b344, type: 3}
 --- !u!4 &533842012
 Transform:
   m_ObjectHideFlags: 0
@@ -742,37 +732,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1583236663}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
---- !u!1 &1228719394 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5573672408480530424, guid: cefc9631ad5e14dc7b1c25b3f9962ba8, type: 3}
-  m_PrefabInstance: {fileID: 1568785120000976728}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1583236662 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
-  m_PrefabInstance: {fileID: 1057162847}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1583236663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583236662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 788c29fbe8081401e904babeedca6ff1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 9038439779738624393, guid: 386b6ba39778246329b4bcd9006bb5a7, type: 3}
-  horizontalInput: 0
-  speed: 10
-  xRange: 10
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
